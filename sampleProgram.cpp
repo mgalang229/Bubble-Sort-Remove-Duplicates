@@ -10,6 +10,7 @@ int main(){
 		cin >> arr[i];
 	}
 	
+	// BUBBLE SORT
 	for(int i = 1; i < n; i++){
 		for(int j = 1; j <= n-1; j++){
 			if(arr[j] > arr[j+1]){
@@ -25,6 +26,7 @@ int main(){
 	}
 	cout << endl;
 	
+	// REMOVING DUPLICATES
 	int j = 1;
 	for(int i = 1; i <= n; i++){
 		if(arr[i] != arr[i+1]){
